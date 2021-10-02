@@ -1,0 +1,49 @@
+body {
+    margin-top: 0px;
+    font-family: 'Vollkorn SC', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mainheader {
+    background-color: rgb(22, 138, 22);
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+#leftmentu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10 px 10px;
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+article {
+    font-family: 'Roboto' ;
+}
+
+footer {
+    background-color: rgb(22, 138, 22);
+    clear: both;
+    margin: 0 auto 20px;
+
+}
