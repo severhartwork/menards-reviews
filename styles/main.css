@@ -12,7 +12,10 @@ body {
 nav {
     height: 60px;
     width: 1000px;
-    margin: 0 auto 20px;
+    /*margin: 0 auto 20px;*/
+    font-size: 19px;
+    text-align: center;
+
 }
 
 #leftmentu {
@@ -30,6 +33,10 @@ nav {
 h1 {
     text-align: center;
 }
+h2 {
+    font-family: 'Roboto';
+    text-align: center;
+}
 
 #main {
     float: right;
@@ -43,6 +50,7 @@ article {
 
 footer {
     background-color: rgb(22, 138, 22);
+    background-size: 100%;
     clear: both;
     margin: 0 auto 20px;
 
