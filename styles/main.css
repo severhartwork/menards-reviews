@@ -6,7 +6,6 @@ body {
 }
 
 #mainheader {
-    background-color: rgb(22, 138, 22);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -26,7 +25,6 @@ nav {
 .searchbox {
     align-content: center;
     padding: .5rem;
-    margin: 10 px;
     width: 100%;
 }
 #flex-container {
@@ -69,9 +67,4 @@ article {
     font-family: 'Roboto' ;
 }
 
-footer {
-    background-color: rgb(22, 138, 22);
-    padding-left: .7rem;
-
-}
 

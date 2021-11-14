@@ -14,22 +14,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn+SC:wght@400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/small.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/large.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <header id="mainheader">
-
-        <h1><a href="index.html">BigGreen Reviews</a></h1>
-        <h2 id="tagline">Your source for Menards product reviews</h2>
-        <div class="flex-container">
-            <a href="https://www.boschtools.com/"><img src="images/Bosch-Logo.jpeg" alt="Bosch Logo"></a>
-            <a href="https://www.metabo-hpt.com/us"><img src="images/Metabo_Claim_neg_cmyk_white_on_green.jpeg"
-                    alt="Metabo Logo"></a>
-            <a href="https://www.rikontools.com/"><img src="images/rikon-logo.jpeg" alt="Rikon Logo"></a>
-            <a href="https://www.skil.com/"><img src="images/skil-logo.jpeg" alt="Skil Logo"></a>
-
+    <header class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <h1><a href="index.html">BigGreen Reviews</a></h1>
+                <h2 id="tagline">Your source for Menards product reviews</h2>
+            </section>
         </div>
+        <!--end of road-->
+        <section class="column small-12">
+          <!--  <div class="flex-container"> -->
+                <a href="https://www.boschtools.com/"><img src="images/Bosch-Logo.jpeg" alt="Bosch Logo"></a>
+                <a href="https://www.metabo-hpt.com/us"><img src="images/Metabo_Claim_neg_cmyk_white_on_green.jpeg"
+                        alt="Metabo Logo"></a>
+                <a href="https://www.rikontools.com/"><img src="images/rikon-logo.jpeg" alt="Rikon Logo"></a>
+                <a href="https://www.skil.com/"><img src="images/skil-logo.jpeg" alt="Skil Logo"></a>
+        </section>
+        <!--</div>-->
 
     </header>
     <div>
@@ -67,6 +76,21 @@
             </ul>
 
         </nav>
+        <h2>Top Rated Products</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+         </ul>
+                  
+                             
+
 
     </div>
 
@@ -78,12 +102,33 @@
 
     </main>
 
-    <footer>
-        <p>
-            We exist in your mind
-            <br>
-            (And on some servers)
-        </p>
+    <footer class="clearfix">
+        <div class="row">
+            <section class="column small-12 medium-6 large-3">
+                <h3>Location</h3>
+                <ul>
+                    <li>We exist in your mind (And on some servers)</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h3>Social</h3>
+                <ul>
+                    <li>Tweet</li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="https://www.menards.com/main/home.html">Menards</a></li>
+                </ul>
+            </section>
+            <section class="column small-12 medium-6 large-3">
+                <h3>About</h3>
+            </section>
+
+        </div>
+        <!--end of the road-->
+
     </footer>
     </div>
 

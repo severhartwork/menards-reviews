@@ -1,3 +1,47 @@
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/* grid rules */
+.row {clear:both;}
+
+.column {float: left; padding: 0 2vw; margin: 0 0 .75rem 0;}
+
+.small-12 {width: 100%;}
+
+/* header rules*/
+header {
+    background-color: rgb(22, 138, 22);
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+header h1 {
+    padding: .5rem 0 0 0;
+    font-size: 2.2rem;
+}
+
+header h2 {
+    padding: .3rem 0 0 0;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: rgb(22, 138, 22);
+    font-size: 1.2rem;
+}
+
+footer h3 {
+    font-style: italic;
+    margin: 1rem 0 .3rem 0;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
