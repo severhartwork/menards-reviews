@@ -27,10 +27,11 @@ nav {
     padding: .5rem;
     width: 100%;
 }
-#flex-container {
+.flex-container {
 
         display: flex;
-        flex-direction: row;
+        padding: 1rem;
+        margin: .5rem;
     }
 
 
