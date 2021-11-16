@@ -29,6 +29,51 @@ header h2 {
     font-size: 1.4rem;
 }
 
+button#hamburgerButton { 
+    background: none;
+    border:none;
+    color: #fff;
+    font-size: 2.4rem;
+    cursor: pointer;
+    padding: 0 30px 0 2vw;
+    }
+
+    nav {
+        background-color: rgb(22, 138,22);
+    }
+    
+    nav ul {
+            margin: 0; padding: 0;
+        }
+    
+    nav ul li {
+        list-style-type: none;
+    }
+
+    nav a {
+        display: block;
+        padding: .5rem 0;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    nav li.active {
+        
+    }
+    
+    nav a:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    nav ul.open {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
 footer {
     background-color: rgb(22, 138, 22);
     font-size: 1.2rem;

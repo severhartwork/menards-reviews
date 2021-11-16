@@ -70,18 +70,21 @@
 
     <div>
 
-        <nav>
-            <ul class="navigation">
+        <nav class="clearfix">
+            <div class="row limited">
+                <button id="hamburgerButton">&#9776;</button>
+                <ul id="primaryNavigation">
 
-                <a href="manufacturers.html">Manufacturers</a>
-                <a href="tools-by-type.html">Tools By Type</a>
-                <a href="highest-rated.html">Highest Rated</a>
-                <a href="lowest-rated.html">Lowest Rated</a>
-                <a href="most-recent.html">Most Recent</a>
+                    <li class="active"><a href="manufacturers.html">Manufacturers</a></li>
+                    <li class="active"><a href="tools-by-type.html">Tools By Type</a></li>
+                    <li class="active"><a href="highest-rated.html">Highest Rated</a></li>
+                    <li class="active"><a href="lowest-rated.html">Lowest Rated</a></li>
+                    <li class="active"><a href="most-recent.html">Most Recent</a></li>
 
-            </ul>
-
+                </ul>
+            </div>
         </nav>
+
         <h2>Top Rated Products</h2>
         <ul>
             <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -136,8 +139,8 @@
         <!--end of the road-->
 
     </footer>
-    </div>
 
+    <script src="js/menuToggle.js"></script>
 
 </body>
 
