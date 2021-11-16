@@ -55,13 +55,13 @@ h2 {
     font-style: italic;
     font-size: medium;
 }
-
+/*
 .main {display: flex;
-       flex-direction: row;
+       flex-direction: column;
        padding-left: 40px;
 
 }
-
+*/
 
 article {
     font-family: 'Roboto' ;

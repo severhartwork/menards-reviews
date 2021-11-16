@@ -74,6 +74,12 @@ button#hamburgerButton {
         display: none;
     }
 
+    main img {
+        width: 100%;
+        height: auto;
+
+    }
+
 footer {
     background-color: rgb(22, 138, 22);
     font-size: 1.2rem;
