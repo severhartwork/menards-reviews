@@ -177,6 +177,14 @@
   input { /* 1 */
     overflow: visible;
   }
+
+  input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+  } 
   
   /**
    * Remove the inheritance of text transform in Edge, Firefox, and IE.
