@@ -13,11 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn+SC:wght@400;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link href="styles/normalize.css" rel="stylesheet">
-    <link href="styles/small.css" rel="stylesheet">
-    <link href="styles/medium.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/small.css" rel="stylesheet" type="text/css">
+    <link href="styles/medium.css" rel="stylesheet" type="text/css">
+    <link href="styles/large.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -64,57 +64,49 @@
 
         </aside>
 
-
     </div>
     </header>
 
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerButton">&#9776;</button>
+            <ul id="primaryNavigation">
 
+                <li class="active"><a href="manufacturers.html">Manufacturers</a></li>
+                <li class="active"><a href="tools-by-type.html">Tools By Type</a></li>
+                <li class="active"><a href="highest-rated.html">Highest Rated</a></li>
+                <li class="active"><a href="lowest-rated.html">Lowest Rated</a></li>
+                <li class="active"><a href="most-recent.html">Most Recent</a></li>
 
-        <nav class="clearfix">
-            <div class="row limited">
-                <button id="hamburgerButton">&#9776;</button>
-                <ul id="primaryNavigation">
+            </ul>
+        </div>
+    </nav>
 
-                    <li class="active"><a href="manufacturers.html">Manufacturers</a></li>
-                    <li class="active"><a href="tools-by-type.html">Tools By Type</a></li>
-                    <li class="active"><a href="highest-rated.html">Highest Rated</a></li>
-                    <li class="active"><a href="lowest-rated.html">Lowest Rated</a></li>
-                    <li class="active"><a href="most-recent.html">Most Recent</a></li>
+    <main class="clearfix">
 
-                </ul>
-            </div>
-        </nav>
+        <div class="row limited">
+            <section class="column small-12">
+                <img src="images/menards-hero-1.png" alt="BigGreen Reviews Hero" width="1140" height="561">
+            </section>
+        </div>
 
-        <main class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <h2>Most Recent Reviews</h2>
 
-            <div class="row limited">
-                <section class="column small-12">
-                    <img src="images/menards-hero-1.png" alt="BigGreen Reviews Hero" width="1140" height="561">
-                </section>
-            </div>
-
-            <div class="row limited">
-                <section class="column small-12">
-                    <h2>Most Recent Reviews</h2>
-
-                </section>
-            </div> <!-- end of the road -->
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Aliquam tincidunt mauris eu risus.</li>
-                        <li>Vestibulum auctor dapibus neque.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Aliquam tincidunt mauris eu risus.</li>
-                        <li>Vestibulum auctor dapibus neque.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Aliquam tincidunt mauris eu risus.</li>
-                        <li>Vestibulum auctor dapibus neque.</li>
-                    </ul>
-
-
-
-
-
+            </section>
+        </div> <!-- end of the road -->
+        <ul>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            <li>Aliquam tincidunt mauris eu risus.</li>
+            <li>Vestibulum auctor dapibus neque.</li>
+        </ul>
 
     </main>
 
@@ -149,6 +141,5 @@
 
     <script src="js/menuToggle.js"></script>
 
-</body>
-
+    </body>
 </html>

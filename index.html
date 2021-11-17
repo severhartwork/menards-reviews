@@ -13,11 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Vollkorn+SC:wght@400;600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
-    <link href="styles/normalize.css" rel="stylesheet">
-    <link href="styles/small.css" rel="stylesheet">
-    <link href="styles/medium.css" rel="stylesheet">
-    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link href="styles/small.css" rel="stylesheet" type="text/css">
+    <link href="styles/medium.css" rel="stylesheet" type="text/css">
+    <link href="styles/large.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -47,94 +47,84 @@
 
         </aside>
 
-
     </div>
     </header>
 
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="hamburgerButton">&#9776;</button>
+            <ul id="primaryNavigation">
 
+                <li class="active"><a href="manufacturers.html">Manufacturers</a></li>
+                <li class="active"><a href="tools-by-type.html">Tools By Type</a></li>
+                <li class="active"><a href="highest-rated.html">Highest Rated</a></li>
+                <li class="active"><a href="lowest-rated.html">Lowest Rated</a></li>
+                <li class="active"><a href="most-recent.html">Most Recent</a></li>
 
-        <nav class="clearfix">
-            <div class="row limited">
-                <button id="hamburgerButton">&#9776;</button>
-                <ul id="primaryNavigation">
+            </ul>
+        </div>
+    </nav>
 
-                    <li class="active"><a href="manufacturers.html">Manufacturers</a></li>
-                    <li class="active"><a href="tools-by-type.html">Tools By Type</a></li>
-                    <li class="active"><a href="highest-rated.html">Highest Rated</a></li>
-                    <li class="active"><a href="lowest-rated.html">Lowest Rated</a></li>
-                    <li class="active"><a href="most-recent.html">Most Recent</a></li>
+    <main class="clearfix">
 
-                </ul>
+        <div class="row limited">
+            <section class="column small-12">
+                <img src="images/menards-hero-1.png" alt="BigGreen Reviews Hero" width="1140" height="561">
+            </section>
+        </div>
+
+        <main class="main">
+
+            <div class="flex-container">
+
+                <h2>Featured Categories</h2>
+
+                <h3>Saws</h3>
+
+                <a href="power-saws.html"><img src="images/rikon_band_saw.jpeg" width="35%" alt="Power Saws"></a>
+
+                <h3>Routers</h3>
+
+                <a href="routers.html"><img src="images/1617EVS_01_master.jpeg" width="35%" alt="Routers"></a>
+
+                <h3>Power Tool Combo Kits</h3>
+
+                <a href="power-tool-combo-kits.html"><img src="images/PowerToolComboKits2.jpeg" width="35%"
+                        alt="Power Tool Combo Kits"></a>
             </div>
-        </nav>
 
+        </main>
 
-        <main class="clearfix">
-
-            <div class="row limited">
-                <section class="column small-12">
-                    <img src="images/menards-hero-1.png" alt="BigGreen Reviews Hero" width="1140" height="561">
+        <footer class="clearfix">
+            <div class="row">
+                <section class="column small-12 medium-6 large-3">
+                    <h3>Location</h3>
+                    <ul>
+                        <li>We exist in your mind (And on some servers)</li>
+                    </ul>
                 </section>
+                <section class="column small-12 medium-6 large-3">
+                    <h3>Social</h3>
+                    <ul>
+                        <li>Tweet</li>
+                    </ul>
+                </section>
+                <section class="column small-12 medium-6 large-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="https://www.menards.com/main/home.html">Menards</a></li>
+                    </ul>
+                </section>
+                <section class="column small-12 medium-6 large-3">
+                    <h3>About</h3>
+                </section>
+
             </div>
+            <!--end of the road-->
 
+        </footer>
 
+        <script src="js/menuToggle.js"></script>
 
-    <main class="main">
-
-
-        <div class="flex-container">
-
-            <h2>Featured Categories</h2>
-
-            <h3>Saws</h3>
-
-            <a href="power-saws.html"><img src="images/rikon_band_saw.jpeg" width="35%" alt="Power Saws"></a>
-
-            <h3>Routers</h3>
-
-            <a href="routers.html"><img src="images/1617EVS_01_master.jpeg" width="35%" alt="Routers"></a>
-
-            <h3>Power Tool Combo Kits</h3>
-
-            <a href="power-tool-combo-kits.html"><img src="images/PowerToolComboKits2.jpeg" width="35%"
-                    alt="Power Tool Combo Kits"></a>
-        </div>
-
-
-
-    </main>
-
-    <footer class="clearfix">
-        <div class="row">
-            <section class="column small-12 medium-6 large-3">
-                <h3>Location</h3>
-                <ul>
-                    <li>We exist in your mind (And on some servers)</li>
-                </ul>
-            </section>
-            <section class="column small-12 medium-6 large-3">
-                <h3>Social</h3>
-                <ul>
-                    <li>Tweet</li>
-                </ul>
-            </section>
-            <section class="column small-12 medium-6 large-3">
-                <h3>Links</h3>
-                <ul>
-                    <li><a href="https://www.menards.com/main/home.html">Menards</a></li>
-                </ul>
-            </section>
-            <section class="column small-12 medium-6 large-3">
-                <h3>About</h3>
-            </section>
-
-        </div>
-        <!--end of the road-->
-
-    </footer>
-
-    <script src="js/menuToggle.js"></script>
-
-</body>
-
+    </body>
 </html>
