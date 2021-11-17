@@ -5,6 +5,11 @@ body {
     margin-right: auto;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+  }
+
 #mainheader {
     text-align: center;
     display: flex;

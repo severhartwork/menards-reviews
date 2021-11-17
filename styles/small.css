@@ -58,9 +58,7 @@ button#hamburgerButton {
     nav a {
         display: block;
         padding: .5rem 0;
-        color: black;
         text-align: center;
-        text-decoration: none;
     }
 
     nav li.active {
