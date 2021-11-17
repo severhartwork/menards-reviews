@@ -34,7 +34,7 @@ header h2 {
     text-decoration: none;
 }
 
-button#hamburgerButton { 
+button#hamburgerButton {
     background: none;
     border:none;
     color: #fff;
@@ -46,11 +46,11 @@ button#hamburgerButton {
     nav {
         background-color: rgb(22, 138,22);
     }
-    
+
     nav ul {
             margin: 0; padding: 0;
         }
-    
+
     nav ul li {
         list-style-type: none;
     }
@@ -58,15 +58,13 @@ button#hamburgerButton {
     nav a {
         display: block;
         padding: .5rem 0;
-        color: black;
         text-align: center;
-        text-decoration: none;
     }
 
     nav li.active {
-        
+
     }
-    
+
     nav a:hover {
         background-color: rgba(0,0,0,0.2);
     }
