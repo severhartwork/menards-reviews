@@ -10,6 +10,13 @@
         font-size: 1.6rem;
     }
 
+    main img {
+        width: 100;
+        height: auto;
+        padding: 2rem;
+        margin-left: .4rem;
+    }
+
 .large-3 {width: 25%;}
     
 nav ul {margin-left: 2vw;}
