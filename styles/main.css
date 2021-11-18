@@ -34,11 +34,10 @@ nav {
 .flex-container {
 
         display: flex;
+        flex-direction: column;
         padding: 1rem;
         margin: .5rem;
     }
-
-
 
 h1 {
     text-align: center;
