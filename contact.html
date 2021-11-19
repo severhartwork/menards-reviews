@@ -27,14 +27,22 @@
                 "Are you here because an employee was mean to you or a driver did a bad job? Click OK for yes. Click Cancel for no."
                 );
             if (confirmAction) {
-                alert("Please leave the site. This is about products, not services.");
+                // logging value of confirmAction function to JS console
+                // Since user clicked OK, then this be true.
+                console.log(confirmAction);
+                // redirect them to a place for old, grizzled dicks.
+                window.location.href = 'http://lemonparty.org';
             } else {
+              // logging value of confirmAction function to JS console
+              // Since user clicked Cancel, then this be false.
+              console.log(confirmAction);
+
                 alert("Hooray! You passed the test!");
+                // Note that the following if will never be true because we're
+                // already in an else branch that was evaluated because
+                // confirmAction is false.
                 if (confirmAction) {
 
-                    alert("Action successfully executed");
-                } else {
-                    
                 }
             }
         }
