@@ -12,7 +12,7 @@ sections for testing purposes and build out more of the site as i progress throu
 I have included the following features to satisfy the requirements of the class: 
 
 Navigation menu that changes view based on screen size, expands and contracts and features 
-hover-over shading.
+hover-over shading using css and js
 
 Media queries for small, medium and large screens
 
