@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Most Recent Reviews | BigGreen Reviews</title>
+    <title>Contact | BigGreen Reviews</title>
     <meta name="description" content="User-submitted reviews for all things Menards!">
     <link rel="icon" type="image/png" href="images/android-chrome-192x192.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,27 @@
     <link href="styles/small.css" rel="stylesheet" type="text/css">
     <link href="styles/medium.css" rel="stylesheet" type="text/css">
     <link href="styles/large.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <script>
+        // The function below will start the confirmation dialog
+        function confirmAction() {
+            let confirmAction = confirm(
+                "Are you here because an employee was mean to you or a driver did a bad job? Click OK for yes. Click Cancel for no."
+                );
+            if (confirmAction) {
+                alert("Please leave the site. This is about products, not services.");
+            } else {
+                alert("Hooray! You passed the test!");
+                if (confirmAction) {
+                    // if true
+                    alert("Action successfully executed");
+                } else {
+                    // if false
+
+                }
+            }
+        }
+    </script>
 
 </head>
 
@@ -90,23 +111,17 @@
             </section>
         </div>
 
+        <h1>Ready to review?</h1>
+        <a class="yesButton">
+            <button id="yes" onclick="confirmAction()">Yes! I have things to say!</button>
+        </a>
         <div class="row limited">
             <section class="column small-12">
-                <h2>Most Recent Reviews</h2>
-
+                <br>
+                <br>
+                <br>
             </section>
         </div> <!-- end of the road -->
-        <ul>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-            <li>Vestibulum auctor dapibus neque.</li>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-            <li>Vestibulum auctor dapibus neque.</li>
-            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-            <li>Aliquam tincidunt mauris eu risus.</li>
-            <li>Vestibulum auctor dapibus neque.</li>
-        </ul>
 
     </main>
 
@@ -130,7 +145,11 @@
                     <li><a href="https://www.menards.com/main/home.html">Menards</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
+                <!--
             </section>
+            <section class="column small-12 medium-6 large-3">
+                <h3>About</h3>
+            </section>-->
 
         </div>
         <!--end of the road-->
